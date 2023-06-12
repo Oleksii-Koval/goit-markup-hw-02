@@ -15,26 +15,26 @@
       href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="shortcut icon" href="./images/label/label.svg" />
     <title>PORTFOLIO</title>
   </head>
   <body>
     <!--Header-->
-
     <header>
       <nav>
         <!--Logo-->
-        <a href="./index.html" class="logo">Web<span class="logo-accent">Studio</span></a>
+        <a href="./index.html" class="logo"><span class="logo-accent">Web</span>Studio</a>
 
         <!--Menu-navigation-->
         <ul>
           <li>
-            <a class="navigation-link" href="./index.html">Studio</a>
+            <a class="page-navigation" href="./index.html">Studio</a>
           </li>
           <li>
-            <a class="navigation-link" href="./portfolio.html">Portfolio</a>
+            <a class="page-navigation" href="./portfolio.html">Portfolio</a>
           </li>
           <li>
-            <a class="navigation-link" href="./index.html">Contacts</a>
+            <a class="page-navigation" href="./index.html">Contacts</a>
           </li>
         </ul>
       </nav>
@@ -42,10 +42,10 @@
       <address>
         <ul>
           <li>
-            <a class="address-text" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
           </li>
           <li>
-            <a class="address-text" href="tel:+110001111111">+11 (000) 111-11-11</a>
+            <a class="contact-link" href="tel:+110001111111">+11 (000) 111-11-11</a>
           </li>
         </ul>
       </address>
@@ -57,11 +57,11 @@
       <section>
         <h2 hidden>Navigation buttons</h2>
         <ul>
-          <li><button type="button" class="button-links">All</button></li>
-          <li><button type="button" class="button-links">Web Site</button></li>
-          <li><button type="button" class="button-links">App</button></li>
-          <li><button type="button" class="button-links">Design</button></li>
-          <li><button type="button" class="button-links">Marketing</button></li>
+          <li><button type="button" class="navigation-button-link">All</button></li>
+          <li><button type="button" class="navigation-button-link">Web Site</button></li>
+          <li><button type="button" class="navigation-button-link">App</button></li>
+          <li><button type="button" class="navigation-button-link">Design</button></li>
+          <li><button type="button" class="navigation-button-link">Marketing</button></li>
         </ul>
       </section>
       <!-- Row-1-App -->
@@ -70,18 +70,18 @@
         <ul>
           <li>
             <img src="./images/row-1-images/img-1.jpg" alt="" width="360" height="300" />
-            <h3>Banking App Interface Concept</h3>
-            <p>App</p>
+            <h3 class="actions-name">Banking App Interface Concept</h3>
+            <p class="busines-actions-text">App</p>
           </li>
           <li>
             <img src="./images/row-1-images/img-2.jpg" alt="" width="360" height="300" />
-            <h3>Cashless Payment</h3>
-            <p>Marketing</p>
+            <h3 class="actions-name">Cashless Payment</h3>
+            <p class="busines-actions-text">Marketing</p>
           </li>
           <li>
             <img src="./images/row-1-images/img-3.jpg" alt="" width="360" height="300" />
-            <h3>Meditation App</h3>
-            <p>App</p>
+            <h3 class="actions-name">Meditation App</h3>
+            <p class="busines-actions-text">App</p>
           </li>
         </ul>
       </section>
@@ -93,18 +93,18 @@
         <ul>
           <li>
             <img src="./images/row-2-images/img-1.jpg" alt="" width="360" height="300" />
-            <h3>Taxi Service</h3>
-            <p>Marketing</p>
+            <h3 class="actions-name">Taxi Service</h3>
+            <p class="busines-actions-text">Marketing</p>
           </li>
           <li>
             <img src="./images/row-2-images/img-2.jpg" alt="" width="360" height="300" />
-            <h3>Screen Illustrations</h3>
-            <p>Design</p>
+            <h3 class="actions-name">Screen Illustrations</h3>
+            <p class="busines-actions-text">Design</p>
           </li>
           <li>
             <img src="./images/row-2-images/img-3.jpg" alt="" width="360" height="300" />
-            <h3>Online Courses</h3>
-            <p>Marketing</p>
+            <h3 class="actions-name">Online Courses</h3>
+            <p class="busines-actions-text">Marketing</p>
           </li>
         </ul>
       </section>
@@ -116,18 +116,18 @@
         <ul>
           <li>
             <img src="./images/row-3-images/img-1.jpg" alt="" width="360" height="300" />
-            <h3>Instagram Stories Concept</h3>
-            <p>Design</p>
+            <h3 class="actions-name">Instagram Stories Concept</h3>
+            <p class="busines-actions-text">Design</p>
           </li>
           <li>
             <img src="./images/row-3-images/img-2.jpg" alt="" width="360" height="300" />
-            <h3>Organic Food</h3>
-            <p>Web Site</p>
+            <h3 class="actions-name">Organic Food</h3>
+            <p class="busines-actions-text">Web Site</p>
           </li>
           <li>
             <img src="./images/row-3-images/img-3.jpg" alt="" width="360" height="300" />
-            <h3>Fresh Coffee</h3>
-            <p>Web Site</p>
+            <h3 class="actions-name">Fresh Coffee</h3>
+            <p class="busines-actions-text">Web Site</p>
           </li>
         </ul>
       </section>
@@ -135,10 +135,13 @@
 
     <!--Footer-->
     <footer class="footer-style">
-      <a href="./index.html" class="logo">Web<span class="logo-accent-footer">Studio</span></a>
-      <p class="footer-text-accent">
-        Increase the flow of customers and sales for your business with digital marketing & growth
-        solutions.
+      <a href="./index.html" class="logo"
+        ><span class="logo-accent">Web</span><span class="logo-accent-footer">Studio</span></a
+      >
+      <p class="footer-text">
+        Increase the flow of customers and <br />
+        sales for your business with digital<br />
+        marketing & growth solutions.
       </p>
     </footer>
   </body>
