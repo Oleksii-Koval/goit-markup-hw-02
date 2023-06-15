@@ -20,22 +20,25 @@ body {
 /*------------- header styles -------------*/
 
 /* logo */
-.header-logo {
+.logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: var(--filter-color);
 }
 .header-logo-accent {
   color: #2e2f42;
 }
+.footer-logo-accent {
+  color: var(--background-color);
+}
 
 /* header */
 
-.header-item {
+.header-nav {
   font-weight: 500;
   text-decoration: none;
   font-size: 16px;
@@ -50,38 +53,24 @@ body {
 .address {
   font-style: normal;
 }
-.address-item {
+.address-link {
   font-style: normal;
-  text-decoration: none;
-  color: #434455;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--sample-text);
 }
-.address-item:hover,
-.header-address-item:focus {
+.address-link:hover,
+.address-link:focus {
   color: #404bbf;
 }
 
 /*------------- Footer -------------*/
 
 .footer {
-  background-color: #2e2f42;
+  background-color: var(--sample-items-color);
 }
 .footer-text {
-  color: #f4f4fd;
-}
-
-.footer-logo {
-  font-family: 'Raleway', sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--filter-color);
-}
-.footer-logo-accent {
-  color: #f4f4fd;
-  letter-spacing: 0.02em;
+  color: var(--background-color);
 }
 
 /*------------ Web studio -------------*/
@@ -89,7 +78,7 @@ body {
 /* Hero styles */
 
 .hero {
-  background-color: #2e2f42;
+  background-color: var(--sample-items-color);
   color: #ffffff;
 }
 .hero-name {
@@ -100,7 +89,7 @@ body {
   letter-spacing: 0.02em;
 }
 .hero-button {
-  background-color: #4d5ae5;
+  background-color: var(--filter-color);
   color: inherit;
   font-weight: 500;
   line-height: 1.5;
@@ -135,17 +124,9 @@ body {
 /* Team Cards Styles */
 
 .team-section {
-  background-color: #f4f4fd;
+  background-color: var(--background-color);
 }
-.team-title {
-  color: var(--sample-items-color);
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  text-transform: capitalize;
-  letter-spacing: 0.02em;
-}
+
 .team-card-conteiner {
   background-color: #ffffff;
 }
@@ -163,7 +144,7 @@ body {
   font-weight: 500;
   letter-spacing: 0.04em;
   line-height: 1.5;
-  color: var(--color);
+  color: var(--filter-color);
   background-color: var(--background-color);
   cursor: pointer;
 }
@@ -182,12 +163,13 @@ body {
   line-height: 1.2px;
   letter-spacing: 0.02em;
 }
-.sample-text {
+
+.paragraph-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--sample-text);
 }
 .sample-list-item {
-  background: #ffffff;
+  background-color: #ffffff;
 }
