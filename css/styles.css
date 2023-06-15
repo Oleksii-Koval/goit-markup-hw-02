@@ -3,12 +3,14 @@
   --sample-items-color: #2e2f42;
   --background-color: #f4f4fd;
   --sample-text: #434455;
+  --activelinkcolor: #404bbf;
+  --activebglink: #ffffff;
 }
 body {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
-  color: #434455;
-  background-color: #ffffff;
+  color: var(--sample-text);
+  background-color: var(--activebglink);
 }
 .link {
   text-decoration: none;
@@ -30,7 +32,7 @@ body {
   color: var(--filter-color);
 }
 .header-logo-accent {
-  color: #2e2f42;
+  color: var(--sample-items-color);
 }
 .footer-logo-accent {
   color: var(--background-color);
@@ -46,9 +48,9 @@ body {
   letter-spacing: 0.02em;
   color: var(--sample-items-color);
 }
-.header-item:hover,
-.header-item:focus {
-  color: #404bbf;
+.header-nav:hover,
+.header-nav:focus {
+  color: var(--activelinkcolor);
 }
 .address {
   font-style: normal;
@@ -61,7 +63,7 @@ body {
 }
 .address-link:hover,
 .address-link:focus {
-  color: #404bbf;
+  color: var(--activelinkcolor);
 }
 
 /*------------- Footer -------------*/
@@ -70,6 +72,9 @@ body {
   background-color: var(--sample-items-color);
 }
 .footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--background-color);
 }
 
@@ -79,7 +84,7 @@ body {
 
 .hero {
   background-color: var(--sample-items-color);
-  color: #ffffff;
+  color: var(--activebglink);
 }
 .hero-name {
   font-weight: 700;
@@ -98,7 +103,7 @@ body {
 }
 .hero-button:hover,
 .hero-button:focus {
-  background-color: #404bbf;
+  background-color: var(--activelinkcolor);
 }
 
 /* Busines Actions Styles */
@@ -128,7 +133,7 @@ body {
 }
 
 .team-card-conteiner {
-  background-color: #ffffff;
+  background-color: var(--activebglink);
 }
 
 /*------------- Portfolio --------------*/
@@ -150,8 +155,8 @@ body {
 }
 .filter-button:hover,
 .filter-button:focus {
-  color: #ffffff;
-  background-color: #404bbf;
+  color: var(--activebglink);
+  background-color: var(--activelinkcolor);
 }
 
 /* Sample of products */
@@ -160,7 +165,7 @@ body {
   color: var(--sample-items-color);
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.2px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
 }
 
@@ -170,6 +175,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--sample-text);
 }
+
 .sample-list-item {
-  background-color: #ffffff;
+  background-color: var(--activebglink);
 }
